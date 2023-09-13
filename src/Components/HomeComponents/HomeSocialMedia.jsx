@@ -12,7 +12,7 @@ export const HomeSocialMedia = () => {
       </div>
       <h1 className="font-mono font-semibold mt-3">My Social Media</h1>
 
-      <div className="grid grid-cols-3 grid-rows-1 gap-y-4 gap-x-2 lg:gap-20 xl:gap-x-44 mt-8">
+      <div className="grid grid-cols-3 grid-rows-1 gap-y-4 gap-x-2 lg:gap-16 xl:gap-x-32 mt-8">
         {SocialMedia.map((media) => (
           <Link to={media.path} key={media.name} className="bg-slate-400/30 p-4 flex flex-col items-center py-2 rounded-lg md:text-xl text-dark" target="_blank">
             {media.icon}
