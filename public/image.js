@@ -1,3 +1,3 @@
-import my from "./my.png";
+import my from "./images/my.png";
 
 export { my };
