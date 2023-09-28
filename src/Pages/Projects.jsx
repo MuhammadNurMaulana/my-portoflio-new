@@ -28,7 +28,7 @@ export const Projects = () => {
   ];
   return (
     <Container>
-      <div className="h-[100vh]">
+      <div className="pb-[500px]">
         <ProjectsComponents />
         <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2  gap-4 mt-10 ">
           {lists.map((list) => (

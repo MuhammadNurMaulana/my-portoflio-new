@@ -8,7 +8,7 @@ export const About = () => {
   }, []);
   return (
     <Container>
-      <div className="md:h-[100vh] flex flex-col gap-5 text-justify">
+      <div className="pb-[500px] flex flex-col gap-5 text-justify">
         <div className="py-8 flex gap-4 items-center text-2xl font-mono font-semibold border-b-2 border-slate-400/60">
           <FaHotjar className="animate-bounce" />
           <h1>About</h1>
