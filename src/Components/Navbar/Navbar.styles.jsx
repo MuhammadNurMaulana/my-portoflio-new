@@ -1,5 +1,4 @@
 import React from "react";
-import { myImage, verifiedImage } from "../../../public/image";
 import { List } from "./Navbar.List";
 import { Link, NavLink } from "react-router-dom";
 
@@ -20,7 +19,7 @@ export const Header = (props) => {
     <div className={`flex items-center lg:flex-col gap-x-4 lg:gap-4 lg:items-start  ${classname}`}>
       <div className="w-12 h-12 md:w-16 md:h-16 lg:w-24 lg:h-24 rounded-full overflow-hidden relative bg-slate-800 dark:bg-slate-400">
         <div className="absolute -top-10 w-12 h-12 md:w-16 md:h-16 lg:w-24 lg:h-24 rounded-full bg-slate-600 dark:bg-slate-200 "></div>
-        <img src={myImage} alt="My Profile" className="w-12 h-12 md:h-16 md:w-16 lg:w-24 lg:h-24 z-20 relative" />
+        <img src="../public/images/my.png" alt="My Profile" className="w-12 h-12 md:h-16 md:w-16 lg:w-24 lg:h-24 z-20 relative" />
       </div>
 
       <div className="flex items-center">
@@ -30,7 +29,7 @@ export const Header = (props) => {
           </h1>
           <h1 className="md:hidden font-sans text-[10px] font-bold">Nur Maulana</h1>
         </div>
-        <img src={verifiedImage} alt="verified" className="ml-3 w-7 h-7 lg:ml-2" />
+        <img src="../public/images/verified.png" alt="verified" className="ml-3 w-7 h-7 lg:ml-2" />
       </div>
 
       <div className="flex gap-3 items-center">
