@@ -2,7 +2,6 @@ import React from "react";
 import { myImage, verifiedImage } from "../../../public/image";
 import { List } from "./Navbar.List";
 import { Link, NavLink } from "react-router-dom";
-import { useScrollTop } from "../Hooks/Scroll";
 
 export const NavbarStyles = (props) => {
   const { children, classname } = props;

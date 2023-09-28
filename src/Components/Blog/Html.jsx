@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const Html = () => {
   return (
     <Container>
-      <BackArrow to="/blog" />
+      <BackArrow to={"/blog"} />
 
       <div className="mt-10 ml-2 font-semibold">
         <h4>Penulis : Muhammad Nur Maulana</h4>
