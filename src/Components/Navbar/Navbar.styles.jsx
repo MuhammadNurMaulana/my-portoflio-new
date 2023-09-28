@@ -1,7 +1,7 @@
 import React from "react";
 import { List } from "./Navbar.List";
 import { Link, NavLink } from "react-router-dom";
-import { my } from "../../../public/image";
+import { my, verified } from "../../../public/image";
 
 export const NavbarStyles = (props) => {
   const { children, classname } = props;
@@ -30,7 +30,7 @@ export const Header = (props) => {
           </h1>
           <h1 className="md:hidden font-sans text-[10px] font-bold">Nur Maulana</h1>
         </div>
-        <img src="../public/images/verified.png" alt="verified" className="ml-3 w-7 h-7 lg:ml-2" />
+        <img src={verified} alt="verified" className="ml-3 w-7 h-7 lg:ml-2" />
       </div>
 
       <div className="flex gap-3 items-center">

@@ -3,12 +3,29 @@ import { Container } from "../Components/Container";
 import { ProjectsComponents } from "../Components/ProjectsComponent";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-import lists from "../Components/service/lists.json";
+import { css, project1, project2, react, tailwind, vite } from "../../public/image";
 
 export const Projects = () => {
   useEffect(() => {
     document.title = "Projects || Maulana";
   }, []);
+
+  const lists = [
+    {
+      path: "https://github.com/MuhammadNurMaulana/my-portoflio-new",
+      title: "My Website Portfolio",
+      src: project2,
+      tech: [css, tailwind, react, vite],
+      description: "Personal Website Portfolio and blog, I built with Tailwind CSS, React Js and Vite",
+    },
+    {
+      path: "https://github.com/MuhammadNurMaulana/My-Portfolio",
+      title: "Website Portfolio",
+      src: project1,
+      tech: [css, tailwind, react, vite],
+      description: "Personal Website Portfolio , I built with Tailwind CSS, React Js and Vite",
+    },
+  ];
   return (
     <Container>
       <div className="h-[100vh]">
