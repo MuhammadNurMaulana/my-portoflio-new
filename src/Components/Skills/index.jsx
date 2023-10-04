@@ -1,5 +1,5 @@
 import React from "react";
-import { bootstrap, css, html23, javascript, react, sass, tailwind } from "../../../public/image";
+import { bootstrap, css, html23, javascript, react, sass, tailwind, ts } from "../../../public/image";
 
 export const Skills = () => {
   const skills = [
@@ -30,6 +30,10 @@ export const Skills = () => {
     {
       name: "React Js",
       src: react,
+    },
+    {
+      name: "Typescript",
+      src: ts,
     },
   ];
   return (

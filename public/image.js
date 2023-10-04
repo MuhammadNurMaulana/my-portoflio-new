@@ -10,4 +10,5 @@ import vite from "./images/icons8-vite-150.png";
 import project2 from "./images/project2.png";
 import project1 from "./images/project1.png";
 import verified from "./images/verified.png";
-export { my, html23, css, javascript, bootstrap, tailwind, sass, react, vite, project1, project2, verified };
+import ts from "./images/icons8-typescript-150.png";
+export { my, html23, css, javascript, bootstrap, tailwind, sass, react, vite, project1, project2, verified, ts };
