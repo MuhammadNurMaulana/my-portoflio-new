@@ -1,24 +1,3 @@
 {
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/"
-    },
-    {
-      "src": "/projects",
-      "dest": "/"
-    },
-    {
-      "src": "/about",
-      "dest": "/"
-    },
-    {
-      "src": "/blog",
-      "dest": "/"
-    },
-    {
-      "src": "/blog/pengertian&html",
-      "dest": "/"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
